@@ -1,0 +1,186 @@
+@font-face {
+
+    font-family: azim;
+    src: url(./fonts1/ultras.ttf);
+}
+
+@font-face {
+
+    font-family: urban;
+    src: url(./fonts1/Urban\ Storm.ttf);
+}
+
+@font-face {
+
+    font-family: bebas;
+    src: url(./fonts1/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+
+    font-family: ms;
+    src: url(./fonts1/ms.ttf);
+}
+
+@font-face {
+
+    font-family: ms2;
+    src: url(./fonts1/ms.ttf);
+}
+
+@font-face {
+
+    font-family: badabb;
+    src: url(./fonts1/BADABB__.TTF);
+}
+
+@font-face {
+
+    font-family: storm;
+    src: url(./fonts1/Storm\ Gust.ttf);
+}
+
+@font-face {
+
+    font-family: rihan;
+    src: url(./fonts1/bbbb.ttf);
+}
+
+@font-face {
+    font-family: 'BEYNO Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('BEYNO Regular'), url('fonts1/BEYNO.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BEYNO Regular2';
+    font-style: normal;
+    font-weight: normal;
+    src: local('BEYNO Regular'), url('fonts1/Action\ of\ the\ Time\ New.ttf') format('woff');
+}
+
+@font-face {
+
+    font-family: rihan3;
+    src: url(./fonts1/aaaa.ttf);
+}
+
+@font-face {
+
+    font-family: Doctor;
+    src: url(./fonts1/Doctor\ Glitch.ttf);
+}
+
+@font-face {
+
+    font-family: lato;
+    src: url(./fonts1/Lato-Italic.ttf);
+}
+
+@font-face {
+
+    font-family: go;
+    src: url(./fonts1/go3v2.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-container img{
+    width: 550px;
+    height: 550px;
+    display: flex;
+    margin-bottom: 50px;
+    padding: 5px;
+    
+
+}
+.head-line{
+    font-family: rihan;
+    font-size: 35px;
+    margin-left: 5px;
+
+}
+#page-2{
+    width: 100%;
+}
+.head-line h2{
+    font-family: Doctor;
+    font-size: 35px;
+    color: red;
+    -webkit-text-stroke: rgb(255, 255, 255) 1px;
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+    
+} 
+.head-line h4{
+    letter-spacing: 10px;
+
+}
+.parent-container{
+    display: flex;
+}
+.text-child{
+    padding: 5px;
+}
+.text-child h2{
+    text-align: center;
+    font-family: rihan;
+    font-size: 34px;
+    
+
+}
+.text-child p{
+    font-family: lato;
+    text-align: justify;
+}
+.text-child .para-1{
+    font-family: rihan;
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 2;
+}
+.img-container{
+    width: 100%;
+}
+
+.footer{
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+   
+
+}
+.banner7{
+
+      display: flex;
+      justify-content: space-between;
+      justify-content: center;
+      padding-top: 20px;
+      width: 100%;
+}
+.banner7 img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: -20%;
+
+}
+.banner7 h3{
+    position: relative;
+    left: -20%;
+    
+
+}
+.banner7 h2{
+    font-family: doctor;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: rgb(255, 0, 0) 1px;
+    text-shadow: 1px 1px 20px rgb(255, 255, 255);
+}
+
+
+
+

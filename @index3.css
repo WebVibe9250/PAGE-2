@@ -1,0 +1,39 @@
+@media screen and (max-width:600px) {
+
+
+    .parent-container {
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+
+    }
+    /* #page-2 {
+        padding: 60px 20px;
+    } */
+    .text-child h2{
+        text-align: center;
+    }
+    .img-container img{
+        width: 100%;
+    }
+    .banner7 img{
+        width: 45px;
+        height: 45px;
+        position: relative;
+        right: 2%;
+    }
+    .banner7 h3 {
+        position: relative;
+        left: 1%;
+        font-size: 17px;
+    }
+    .banner7 h2{
+        font-size: 22px;
+    }
+
+
+
+
+
+
+}
