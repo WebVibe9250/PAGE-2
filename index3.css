@@ -91,7 +91,7 @@
 
 .img-container img{
     width: 550px;
-    height: 550px;
+    height: auto;
     display: flex;
     margin-bottom: 50px;
     padding: 5px;
